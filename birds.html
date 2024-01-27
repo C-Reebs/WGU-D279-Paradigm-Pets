@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Paradigm Pet Professionals</title>
+  </head>
+<body>
+  <div class="header">
+    <header>
+      <h1>Paradigm Pet Professionals</h1>
+      <h5>Evidence-based pet care advice for every pet lover</h5>
+      <h5>
+        Paradigm Pet Professionals has 12 years’ experience working with pet
+        owners, <br />certifications in pet health and nutrition, and customer
+        recognition for outstanding support.
+      </h5>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cats.html">Cats</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+            <li><a href="birds.html">Birds</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="requestConsult.html">Request a Consultation</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <h5>Birds are very intriguing creatures as they can range from birds as small as a Cuban bee hummingbird (about two inches long and a little over 1/20 of an ounce) to as large as an ostrich. While most birds fly, there are some that don't. Birds are amazing and each breed is unique in its own way, particularly when it comes to their relational needs and well-being.</h5>
+    <div class="blurb">
+
+<button onclick="displayText('buttonText1')">Potential Causes of Depression</button>
+<p id='buttonText1' class="buttonText" style='display: none'>Unfortunately, birds can experience sadness and depression just like humans. A number of root causes may be responsible for your bird's depression such as an illness (either physical or mental), losing its companion, or increasingly becoming bored. </p><br/>
+
+<button onclick="displayText('buttonText2')">Signs to Watch For</button>
+<p id='buttonText2' class="buttonText" style='display: none'>Some signs to help identify if your bird is experiencing depression may include the following:<br/><br/>
+•	reduced appetite<br/>
+•	becoming increasingly irritable<br/>
+•	aggressive behavior<br/>
+•	songs have a different, more solemn tone<br/>
+Be sure to tell your veterinarian if you see signs of any of these symptoms. Just like many illnesses, identifying and treating the symptoms earlier may drastically increase the lifespan of your birdie.
+</p><br/>
+<button onclick="displayText('buttonText5')">Request Consultation</button>
+<p id='buttonText5' class="buttonText" style='display: none'>Want to know more? Don't hesitate to reach out and we'll be in touch with one of our "Pexperts" before you can say "Fetch!"<br/><br/><a href="requestConsult.html">Request Consultation</a></p>
+    </div>
+    <aside>
+        <img src="/images/bird.png" alt="Bird" height="300" width="auto"/>
+    </aside>
+    <footer>
+    <div class="footerContainer">
+        <div class="footerImage"></div>
+        <ul>
+            <li><a href="https://theshelterpetproject.org/ " target="_blank">General Adoption Resources</a></li>
+            <li><a href="https://www.aspca.org/ " target="_blank">ASPCA</a></li>
+            <li><a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/" target="_blank">Fish Rescue</a></li>
+            <li><a href="https://savethesnakes.org/snakerescuecall/" target="_blank">Snake Rescue</a></li>
+            <li><a href="https://ftlob.rescuegroups.org/" target="_blank">Bird Rescue</a></li>
+          </ul>
+    </div>
+</footer>
+<script>
+function displayText(id) {
+        var allTexts = document.querySelectorAll('.buttonText');
+        allTexts.forEach(function(text) {
+            text.style.display = 'none';
+        });
+
+        // Display the clicked paragraph
+        var text = document.getElementById(id);
+        if (text.style.display === 'none') {
+            text.style.display = 'block';
+        } else {
+            text.style.display = 'none';
+        }
+    }
+</script>
+</body>
+
+
+    <!--Primary colors:
+Midnight Blue - #003B6D
+Blue Sky- #6699CC
+
+Secondary colors:
+Dim gray - #676767
+Silver- #BDBDBD
+
+•	Select from the colors listed to use for the following page elements:
+•	Header bar, navigation bar, line breaks, text such as Title/Header for H1 and H2 Levels, body text colors, and link text colors 
+•	Keep in mind any accessibility issues that prevents users with disabilities from using the website such as font size, the contrast between text color and background, and so on.
+-->
+</html>
